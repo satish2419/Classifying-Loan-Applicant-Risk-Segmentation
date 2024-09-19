@@ -21,7 +21,7 @@ The dataset used in this project contains information on loan applicants, includ
 - Loan Amount
 - Loan Purpose
 - 
-KNN Model
+**KNN Model**
 The K-Nearest Neighbors (KNN) algorithm is a simple yet effective classification technique that works by finding the K closest data points in the training set to the new data point. The class label is determined based on the majority class among those neighbors.
 
 **Key Steps:**
