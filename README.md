@@ -21,7 +21,6 @@ The dataset used in this project contains information on loan applicants, includ
 - Loan Amount
 - Loan Purpose
 
-For more details, refer to the `data/` directory.
 
 ## Installation
 
@@ -36,7 +35,7 @@ Usage
 You can run the main script to train the model and make predictions:
 python main.py
 
-Configuration
+**Configuration**
 You can modify parameters in config.py to adjust model settings, such as:
 Number of neighbors (K)
 Distance metric (Euclidean, Manhattan, etc.)
@@ -45,10 +44,10 @@ Test/train split ratio
 KNN Model
 The K-Nearest Neighbors (KNN) algorithm is a simple yet effective classification technique that works by finding the K closest data points in the training set to the new data point. The class label is determined based on the majority class among those neighbors.
 
-Key Steps:
+**Key Steps:**
 Data Normalization: KNN is sensitive to feature scaling; hence, all numerical features are normalized.
 Distance Calculation: The model computes distances using the chosen metric (e.g., Euclidean).
 Prediction: For each applicant, KNN identifies the K nearest neighbors and predicts the risk category.
 
-Results
+**Results**
 After running the model, The training_score is 67.5%, Testing Score is 64.5, Accuracy Score is 64.53%.
